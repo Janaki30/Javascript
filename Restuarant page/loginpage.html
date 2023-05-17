@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family==Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <title>Restaurant</title>
+
+</head>
+
+<style type="text/css">
+    .login {
+        width: 450px;
+        height: 350px;
+        border: 1px solid black;
+        border-radius: 20px;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        font-size: 20px;
+        margin: 0 auto;
+
+    }
+
+    body {
+        background-image: url("./images/restuarant.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-family: 'Source Sans Pro', sans-serif;
+
+    }
+
+    input {
+        padding: 8px;
+        width: 350px;
+        height: 40px;
+        text-align: center;
+        border-radius: 30px;
+        color: black;
+        font-size: 30px;
+        font-family:'Source Sans Pro', sans-serif;
+    }
+
+    .username {
+        margin-top: 50px;
+    }
+
+    button {
+        margin-top: 20px;
+        text-align: center;
+        width: 100px;
+        height: 40px;
+        background-color: rgb(105, 105, 157);
+        font-size: 20px;
+        color: white;
+        border-radius: 50px;
+        font-family:'Source Sans Pro', sans-serif;
+
+    }
+
+
+
+    h1 {
+        color:turquoise;
+        font-size: 60px;
+        font-weight: bold;
+        margin-top: 50px;
+        text-align: center;
+
+    }
+
+    label {
+        color:aquamarine;
+        font-size: 30px;
+
+    }
+</style>
+
+<body>
+
+    <section>
+        <h1> Janaki Restuarant</h1>
+        <div class="login">
+            <div class="username">
+                <label>Username:</label><br>
+                <input type="text" name="text" id="username" class="input">
+            </div>
+
+            <div>
+                <label>Password:</label><br>
+                <input type="password" name="text" id="password">
+            </div>
+            <button onclick="login()">Submit</button>
+        </div>
+
+    </section>
+    <script type="text/javascript">
+        function login() {
+            var uname = document.getElementById('username').value;
+            var pass = document.getElementById('password').value;
+            if (uname == "Janu" && pass == "12345") {
+                location.assign("http://127.0.0.1:5500/index.html")
+            }
+            else {
+                window.alert("login failed");
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
