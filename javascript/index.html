@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> good morning</h1>
+    <div id="display">
+        <p class="paragraph">Paragraph 1</p>
+        <p class="paragraph">Paragraph 2</p>
+        <p class="paragraph">Paragraph 3</p>
+    </div>
+    <script>
+
+        // DOM
+
+        //document.body.innerHTML = "Some text";
+        //var elem=document.getElementById("display");
+        //elem.innerHTML="this is call by id";
+
+
+        // var arr= document.getElemtByClassName("Paragraph");
+        // arr[1].innerHTML="this is call by class name";
+
+        var arr= document.getElementsByTagName("p");
+        for(var x=0; x < arr.length; x++){
+            arr[x].innerHTML="Hi there this is call by tag name";
+        }
+    </script>
+
+    
+    <script src="app.js">
+       //alert('hello from body');
+      // document.write('hello Janaki');
+      
+      //var number= 23;
+      //alert(number);
+     
+      
+    </script>
+</body>
+</html>
