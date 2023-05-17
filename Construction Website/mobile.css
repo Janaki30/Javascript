@@ -1,0 +1,1042 @@
+@media screen and (max-width: 768px) {
+
+    /* banner-section */
+    .html, body, h1, h2, h3, h4, h5, h6, p, ul, em, strong, i, span {
+        font: inherit;
+        margin: 0;
+        padding: 0;
+    }
+   .body{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+   }
+   .home-banner{
+    width:100%;
+    height:auto;
+   }
+    .home-banner {
+        background: url("https://www.apsw.com/sites/default/files/2022-02/banner-home.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 500px;
+        width:401px;
+        background-position: center center;
+        display: block;
+        padding: 50px 0;
+    }
+    .home-banner-content {
+        max-width: 300px;
+        position: relative;
+        padding: 23px 70px 40px;
+    }
+    
+    .home-banner-content h1 {
+        font-weight: normal;
+        font-size: 24px;
+        margin-left: -46px;
+        font-family: "Merriweather", serif;
+        color: #000000;
+        width:282px;
+    
+    }
+    
+    .home-banner-content p {
+        font-weight: normal;
+        font-size: 15px;
+        font-family: "opensans", sans-serif;
+        color: #000000;
+        margin-left: -50px;
+        width: 286px;
+        padding: 10px;
+    
+    }
+    
+    .home-banner-content::before {
+        border-top: 8px solid maroon;
+        border-left: 8px solid maroon;
+        border-right: 8px solid maroon;
+        content: "";
+        position: absolute;
+        top: 0px;
+        border-width: 4px;
+        left: 14px;
+        right: -4px;
+        height: 80px;
+
+    }
+    
+    .home-banner-content::after {
+        border-bottom: 8px solid rgb(174, 153, 49);
+        border-left: 8px solid rgb(174, 153, 49);
+        border-right: 8px solid rgb(174, 153, 49);
+        content: "";
+        position: absolute;
+        border-width: 4px;
+        left: 14px;
+        right: -4px;
+        bottom: 0;
+        height: 80px;
+
+    }
+    
+    
+    .home-banner .home-banner-content h1 span, 
+    .home-banner .home-banner-content h1 > * span {
+        color: #AE9931;
+    }
+    .quote {
+        padding: 10px 20px 10px;
+        text-align: center;
+        width:168.82px;
+        text-decoration: none;
+        position: relative;
+        margin: 20px -40px;
+        color: rgb(141, 37, 40);
+       font-weight: 700;
+        font-family: "opensans", sans-serif;
+    }
+    
+    .quote::before {
+        background: transparent;
+        width: 100%;
+        margin: 0px;
+        border-top: 2px solid rgb(141, 37, 40);
+        border-left: 2px solid rgb(141, 37, 40);
+        border-right: 2px solid rgb(141, 37, 40);
+        content: "";
+        position: absolute;
+        height: 10px;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+    }
+    
+    .quote::after {
+        background: transparent;
+        width: 100%;
+        margin: 0px;
+        border-bottom: 2px solid rgb(174, 153, 49);
+        border-left: 2px solid rgb(174, 153, 49);
+        border-right: 2px solid rgb(174, 153, 49);
+        content: "";
+        position: absolute;
+        height: 10px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+    }
+
+
+    .section-overview{
+        text-align: center;
+        color: #333;
+        padding-top: 50px;
+        padding-bottom: 64px;
+        margin: 2rem 0;
+        width:380px;
+        background: rbga;
+    }
+    .section-overview .wrapper{
+         /* width: 587px; */
+        margin-left: 200px;
+         text-align: center;     
+     }
+     .section-overview .section-overview-top{
+        margin-left: -72px;
+        width:150px;
+     }
+    .section-overview .section-overview-top span {
+        position: relative;
+        padding: 0 20px;
+        font-weight: 700;
+        font-size: 0.9375rem;
+        font-family: "opensans", sans-serif;
+        text-transform: uppercase;
+        color: #8D2528;
+        margin-bottom: 15px;
+        margin-top: 0px;
+        margin-right: 41px;
+        letter-spacing: 0.125rem;
+    
+    }
+    .section-overview .section-overview-top span::before{
+        content: "";
+        width: 60px;
+        height: 2px;
+        background-color: #8D2528;
+        position: absolute;
+        left: -60px;
+        top: 50%;
+        transform: translateY(-50%);
+       }
+     .section-overview .section-overview-top span::after{
+        content: "";
+        width: 60px;
+        height: 2px;
+        background-color: #8D2528;
+        position: absolute;
+        right: -60px;
+        top: 50%;
+        transform: translateY(-50%);
+       }
+    
+    .section-overview .section-title {
+        font-weight: normal;
+        font-size: 1.2rem;
+        width:304px;
+        font-family:  "Merriweather", serif;
+        color: #000000;
+        width:304px;
+        margin-left: -148px;
+        margin-bottom: 15px;
+       
+       
+    }
+    .section-overview .section-overview-bottom p {
+        text-align: left;
+        font-size: 0.875rem;
+        font-weight: normal;
+        font-family: "Open Sans", sans-serif;
+        width: 287px;
+        margin-left:-335px;
+    }
+    
+
+
+    .div-why-us {
+        background-color: #F4F0F2;
+        width:395px;
+        flex-wrap: wrap;
+        padding:0px 0;
+    }
+    .div-why-us-right span::after {
+        position: absolute;
+        content: "";
+        top: 50%;
+        right: 0;
+        left:229px;
+        width: 70px;
+        height: 2px;
+        background-color: #8D2528;
+        margin-top: -1px;
+    }
+    .div-why-us-left img{
+        width:100%;
+        padding: 10px;
+    }
+
+    .div-why-us-right span {
+        margin-top: 37px;
+        font-weight: normal;
+        font-size: 0.9375rem;
+        font-family: "opensans", sans-serif;
+        text-transform: uppercase;
+        color: #8D2528;
+        position: relative;
+        padding: 0 25px 10px;
+    }
+    .div-why-us-right h2 {
+        margin-left: 4px;
+        width:295px;
+        font-weight: normal;
+        font-size: 20px;
+        padding: 20px;
+        font-family: "Merriweather", serif;
+    }
+    .div-why-us-right .icon-list .icon-list-item .list-icon {
+        width: 14px;
+
+    }
+    .div-why-us-right .icon-list .icon-list-item .list-content {
+    
+        font-weight:normal;
+        font-size: 15px;
+        font-family: "opensans", sans-serif;
+        color: #202021;
+    }
+    
+    .div-why-us-right .icon-list {
+        font-family: "opensans", sans-serif;
+        list-style: none;
+        margin-left: 20px;
+    }
+
+    
+
+    .section-coverage{
+        text-align: center;
+        color: #333;
+        padding: 1rem;
+        margin: 2rem 0;
+        width:375px;
+        background: rbga;
+    }
+    .section-coverage .wrapper {
+       margin-left: 20px;
+        width:100%;
+        justify-content: center;
+        text-align: center;
+    }
+    .section-coverage .section-title h2 {
+        font-weight: 400;
+        font-size:  1.25rem;
+        font-family:  "Merriweather", serif;
+        color: #000000;
+        margin-bottom: 15px;
+        margin-left: -35px;
+    }
+    .section-coverage .section-title span {
+        font-weight: 600;
+        font-size: 0.9rem;
+        line-height: 1.25rem;
+        font-family: "opensans", sans-serif;
+        text-transform: uppercase;
+        color: #8D2528;
+        display: inline-block;
+        margin-bottom:  15px 15px;
+        margin-left: -35px;
+        letter-spacing: 0.125rem;
+        
+    }
+    .section-title span::before {
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 2px;
+        background-color: #8D2528;
+        margin-top: 8px;
+        margin-left: -62px;
+    }
+    .section-title span::after {
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 2px;
+        background-color: #8D2528;
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+    .section-coverage .section-title p {
+        font-size: 1.2rem;
+        margin-left: -17px;
+    }
+    
+    .cards {
+        flex-wrap: wrap;
+        background-color: #ffffff;
+        justify-content: center;
+        text-align: center;
+         padding-top: 45px;
+         width:340px;
+         margin-right: 10px;
+    
+    
+     
+    }
+    .cards .card-item {
+        background-color: #ffffff;
+        box-shadow: 10px 3px 20px rgba(0, 0, 0, 0.1);
+        border-bottom: 3px solid #8D2528;
+        margin-bottom: 40px;
+        margin-right: 10px;
+    }
+    .cards .card-item .card-img img  {
+        max-width: 100%;
+        display: inline-block;
+        object-fit: cover;
+    
+    }
+    .cards .card-item .card-content{
+        padding: 20px 10px;
+        font-family: "opensans", sans-serif;
+        color: #000000;
+        font-size: 1.25rem;
+        display: block;
+    }
+    .cards .card-item .card-content h3{
+            font-size: 1.5rem;
+            font-weight: 500;
+            line-height: 2rem;
+            font-family: "Merriweather", serif;
+            color: #202021;
+            margin-bottom: 15px;
+            padding: 0 22px;
+    }
+    .cards .card-item .card-content p{
+        font-weight: normal;
+        font-size: 0.875rem;
+        line-height: 1.375rem;
+        font-family: "opensans", sans-serif;
+        color: #202021;
+    }
+
+
+
+
+
+    .coveragedetails-section {
+        text-align: center;
+        /* width: 385px; */
+        padding-bottom: 35px;
+    }
+    
+    .coveragedetails-heading {
+        font-size: 0.875rem;
+        font-weight: 600;
+        line-height: 1.1875rem;
+        font-family:"opensans", sans-serif;
+        text-transform: uppercase;
+        color: #8D2528;
+        margin: 0px 10px 15px;
+    }
+        
+    .coveragedetails-heading::before {
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 2px;
+        background-color: #8D2528;
+        margin-top: 8px;
+        margin-left: -66px;
+    }
+    .coveragedetais-heading::after {
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 2px;
+        background-color: #8D2528;
+        margin-top: 8px;
+        margin-left: px; 
+    }
+    
+    .coveragedetails-paragraph {
+        font-family: 'Merriweather', serif;
+        font-weight: normal;
+        font-size: 1.25rem;
+        margin-bottom: 15px;
+        /* margin:0px; */
+    }
+    
+    .house-Image {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px 20px;
+        width:360px;
+    }
+    
+    .houseImage-right {
+        max-width: 100%;
+        padding:15px;
+        height: auto;
+    }
+    .house-content{
+    display: flex;
+    }
+    
+    .workmanship {
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #AE9931;
+    }
+    .structure-details:first-child {
+        border-right: 2px solid #C9C9C9;
+    }
+    
+    .workmanship-content p {
+        font-weight: normal;
+        font-size: 1.125rem;
+        font-family: "Merriweather", serif;
+        line-height: 1.5rem;
+        color: #000000;
+    }
+    .workmanship-content{
+        padding-right: 20px;
+    }
+    
+    .systems {
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: #642D8A;
+    }
+    
+    .structure {
+        font-family: 'Merriweather', serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #8D2528;
+    }
+    
+    .electrical-details {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        font-size: 1.25rem;
+        margin-left: 0px;
+    }
+    .electrical-details:first-child {
+        border-bottom: 2px solid #C9C9C9;
+        margin-bottom: 20px;
+    }
+    
+    .structural-details {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        font-size: 1.0769rem;
+        margin-left: 10px;
+        
+    }
+    
+    .structure-details {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        font-size: 1.25rem;
+        padding: 25px;
+        margin-left: 0px;
+    }
+    
+    .house-paragraph {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        font-size: 14px;
+        margin-top: -150px;
+        max-width: 500px;
+        display: none;
+    }
+    
+
+
+     .explore-our-plans {
+        background-image: url("https://www.apsw.com/sites/default/files/2022-03/img-explore-plans.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 327px;
+        padding-bottom: 85px;
+         width: 431px; 
+        background-color: rgba(0, 0, 0, 0.78);
+        font-family:  "opensans", sans-serif;
+    } 
+
+
+    .explore-our-plans h2 {
+        text-align: center;
+        font-size: 0.875rem;
+        font-weight: 800;
+        font-size: 0.9375rem;
+        line-height: 1.1875rem;
+        font-family: "opensans", sans-serif;
+        text-transform: uppercase;
+        color: #B9292D;
+        position: relative;
+       margin-left: 31px;
+       margin-bottom: 10px;
+    }
+    .explore-our-plans h2::before {
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 2px;
+        background-color: #8D2528;
+        margin-top: 8px;
+        margin-left: -62px;
+    }
+    .explore-our-plans h2::after{
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 2px;
+        background-color: #8D2528;
+        margin-top: 8px;
+        margin-left: 15px;
+    
+    }
+        
+    
+    
+    .explore-our-plans h3 {
+        color: #ffffff;
+        text-align: left;
+        font-size: 1.25rem;
+        font-weight: normal;
+        line-height: 2rem;
+        font-family:"Merriweather", serif;
+        margin-bottom: 15px;
+        margin-left: 5px;
+        width:284px;
+    
+    }
+    
+    .explore-our-plans p {
+        text-align: center;
+        font-size: 14px;
+        font-weight: normal;
+        line-height: 1.375rem;
+        color: #ffffff;
+        margin-bottom: 20px;
+        margin-left: 28px;
+        width:218px;
+        /* height: 92px; */
+    
+    }
+    .plans-table{
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 350px;
+        padding:0px;
+        margin: 28px -20px ;
+        
+    }
+    .plans-table table tr th {
+        padding: 20px;
+        background-color: #8D2528;
+        text-align: left;
+        font-size: 1.5rem;
+        line-height: 1.625rem;
+        font-family: "Merriweather", serif;
+        color: #ffffff;
+        border: 1px solid #8D2528;
+        border-right-color: #ffffff;
+       
+    }
+    .plans-table table tr td {
+        padding: 10px ;
+        text-align: left;
+        border-bottom: 6px solid #C9C9C9;
+        border-left: 1px solid #C9C9C9;
+        border-right: 1px solid #C9C9C9;
+        vertical-align: top;
+    }
+    .plans-table table tr td ul li {
+        display: block;
+        position: relative;
+        padding-left: 20px;
+        font-size: 1rem;
+        line-height: 1.625rem;
+        margin-bottom: 20px;
+    }
+    .plans-table table tr td ul li::before {
+        position: absolute;
+        content: "";
+       margin-top: 10px;
+        left: 0;
+        height: 6px;
+        width: 6px;
+        border-radius: 50%;
+        border: 2px solid #AE9931;
+    } 
+
+
+    .flexible-coverage h2 {
+        font-family: 'Merriweather', serif;
+        font-weight: normal;
+        font-size: 1.3rem;
+        text-align: center;
+        /* margin-right: 243px; */
+         width: 342px;
+         margin-left: 53px;
+        margin-bottom: -140px;
+        padding:190px  11px;
+    }
+    
+    .standard-workmanship {
+        display: flex;
+        background-color: lightgrey;
+        height: 310px;
+        width:436px;
+        overflow-x: auto;
+    
+        justify-content: start;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    
+    
+    }
+    .standard-workmanship h2 {
+        color: black;
+    }
+    .workmanship-content1 {
+        width: 100%;
+        background-color: whitesmoke;
+        border-bottom: 4px solid #8D2528;
+        margin: 5px;
+        flex-basis: 20%;
+        padding: 10px 25px;
+        background-color: #ffffff;
+        box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+    }
+    .icon1 {
+        text-align: center;
+        padding: 20px;
+    }
+    .aphw {
+        color: #8D2528;
+        border-bottom: 1px solid #8D2528;
+        font-weight: 700;
+    }
+    .workmanship-content1 h2 {
+        font-family: 'Merriweather', serif;
+        font-size: 1.1rem;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 10px;
+        min-height: 70px;
+    }
+    
+    .workmanship-content1 p {
+        font-weight: normal;
+        font-stretch: normal;
+        font-size: 0.875rem;
+        line-height: 1rem;
+        font-family: "opensans", sans-serif;
+
+    }
+
+    
+    
+
+    .warranty-pricing {
+        text-align: center;
+        margin-top: -10px;
+        padding-top: 90px;
+        padding-bottom: 0px;
+        width:427px;
+    }
+    .warranty-pricing-heading {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 0.875rem;
+        color: #8D2528;
+    }
+    .warranty-pricing-heading::before{
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 2px;
+        background-color: #8D2528;
+        margin-top: 8px;
+        margin-left: -62px;
+    }
+    .warranty-pricing-heading::after{
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 2px;
+        background-color: #8D2528;
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+    .warranty-pricing h3 {
+        font-family: 'Merriweather', serif;
+        font-weight: normal;
+        font-size: 1.2rem;
+        text-align: center;
+        padding:20px;
+    }
+    .warranty-pricing h5 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+        font-size: 0.875rem;
+        text-align: center;
+        max-width: 978px;
+        margin: auto;
+        padding: 10px;
+    }
+    .warranty-pricing p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 0.875rem;
+        padding: 20px;
+    }
+    .geta-quote {
+        font-weight: 700;
+        font-size: 0.875rem;
+        line-height: 1.1875rem;
+        font-family: "opensans", sans-serif;
+        background-color: transparent;
+        color: #8D2528;
+        text-transform: uppercase;
+        padding: 6px 30px;
+        flex-direction: row-reverse;
+        letter-spacing: 0.06875rem;
+        z-index: 1;
+        padding: 40px 30px;
+        border: none;
+    
+    }
+    .get-aquote {
+        background-color: #8D2528;
+        color: white;
+        border: none;
+    }
+
+
+
+    .buildersecure {
+        background-color: #F4F0F2;
+        width: 390px;
+        flex-wrap: wrap;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .buildersecure-left {
+        padding: 20px 0px;
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+    .buildersecure-left img{
+        width: 100%;
+    }
+    .buildersecure-right {
+        margin-top: 33px;
+        margin-left: 79px;
+    }
+    
+    .builder-secure-heading {
+        font-weight: normal;
+        font-size: 0.875rem;
+        line-height: 1.1875rem;
+        font-family: "opensans", sans-serif;
+        text-transform: uppercase;
+        color: #8D2528;
+        display: inline-block;
+        margin-bottom: 15px;
+        letter-spacing: 0.125rem;
+        position: relative;
+        padding: 0 60px;
+        margin-left: -115px;
+    
+    }
+    .builder-secure-heading::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 0;
+    width: 40px;
+    height: 2px;
+    background-color: #8D2528;
+    margin-top: -1px;
+    }
+    
+    
+    .buildersecure-right h2 {
+        font-weight: normal;
+        font-size: 1.25rem;
+        font-family: "Merriweather", serif;
+        margin-bottom: 15px;
+        color: #000000;
+        margin-left: -56px;
+    
+    }
+    .buildersecure-right p {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: normal;
+       font-size: 0.875rem;
+        line-height: 1.375;
+        margin-bottom: 15px;
+         width:281px;
+         margin-left: -54px;
+        /* margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px; */
+    }
+
+
+
+
+    .faq-section {
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding:0px;
+        /* width:390px; */
+    }
+    .faq {
+        position: relative;
+        padding: 0 60px;
+        font-weight: 700;
+        font-size: 0.9375rem;
+        line-height: 1.25rem;
+        font-family: "opensans", sans-serif;
+        text-transform: uppercase;
+        color: #8D2528;
+        display: inline-block;
+        margin-bottom: 15px;
+        letter-spacing: 0.125rem;
+    }
+    .faq::before{
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 2px;
+        background-color: #8D2528;
+        margin-top: 8px;
+        margin-left: -62px;
+    }
+    .faq::after{
+        position: absolute;
+        content: "";
+        width: 40px;
+        height: 2px;
+        background-color: #8D2528;
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+    .faq-heading {
+        font-weight: 400;
+        font-size:1.25rem;
+        line-height: 2rem;
+        font-family:  "Merriweather", serif;
+        margin-bottom: 45px;
+    }
+    .symbol{
+        float:right;
+    }
+    .faq-question1 h3 {
+        font-family: 'Merriweather', serif;
+        font-weight: normal;
+        padding: 45px;
+        font-size: 1.125rem;
+        color:#B9292D;
+        padding: 20px 10px 20px 20px;
+        
+    }
+     
+    
+    .faq-question2  {
+        font-family: 'Merriweather', serif;
+        font-weight: normal;
+        height: 286px;
+        padding: 0px;
+    }
+    .faq-question2 h3{
+        font-size: 1.125rem;
+        font-weight: normal;
+        padding: 15px;
+    }
+    .faq-question2 p{
+        font-weight: 400;
+        font-size: 0.875rem;
+        line-height: 1.1875rem;
+        font-family: "opensans", sans-serif;
+        padding:20px 30px 47px;
+    }
+    
+    
+    .faq-question3 h3 {
+        font-family: 'Merriweather', serif;
+        font-weight: normal;
+        padding:0px 6px 25px 0px;
+        font-size: 1rem;
+        color:#B9292D;
+    }
+
+
+
+
+
+    .form {
+        text-align: center;
+        background-color: whitesmoke;
+        padding: 50px 0px;
+        margin-bottom: 30px;
+        width:390px;
+        
+    }
+    form .wrapper{
+        width:1920px;
+    }
+    .form .form-title h3{
+        color: black;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 2rem ;
+        width:320px;
+        margin-left: 35px;
+        font-family: "Merriweather", serif;
+        margin-bottom: 10px;
+    }
+    .form .form-title p{
+        font-size: 0.875rem;
+        line-height: 1.375rem;
+        width:238px;
+        margin-left: 63px;
+        color: black;
+      
+    }
+    
+    .form-data{
+        flex-wrap: wrap;
+        font-size: 0.875rem; 
+        padding: 50px;
+        max-width: 1800px;
+        text-align: left;
+        margin-top: auto;
+        justify-content: center;
+        font-weight: normal;
+        line-height: 1.1875rem;
+        font-family:  "opensans", sans-serif;
+        
+       
+    }
+    .star{
+        color:#8D2528;
+    }
+    .txt{
+        height: 50px;
+        width: 270px;
+        margin-right: 15px;
+        border-color: lightgray;
+        border-bottom: 4px solid lightgray;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    
+    }
+    .para p{
+    text-align: left ;
+    font-size: 0.875rem;
+    margin-left: 55px;
+    width:262px;
+    }
+    .getaquote {
+        margin-left: -161px;
+        padding: 20px;
+        font-size: 0.875rem;
+        letter-spacing:0.06875rem;
+    }
+    
+
+
+
+    .warranty-leader{
+        text-align: center;
+        width:387px;
+    }
+    .warranty-leader .icon{
+        margin-bottom: 20px;
+        margin-top: 30px;
+        max-width: 100px;
+        display: inline-block;
+    }
+    .warranty-leader .icon img{
+         max-width: 100%;
+    }
+    .warranty-leader-bottom h2{
+        font-size: 1.25rem;
+        padding: 15px;
+        font-weight: normal;
+        line-height: 2rem;
+        font-family:  "Merriweather", serif;
+        margin-bottom: 15px;
+    }
+    .warranty-leader-bottom p{
+        font-size: 0.975rem;
+        font-family:"opensans", sans-serif; 
+        line-height: 1.375rem;
+    }
+    
+}
